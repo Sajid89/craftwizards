@@ -1,0 +1,10 @@
+# Ignore configuration files that may contain sensitive information.
+wp-config.php
+wp-content/advanced-cache.php
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/wp-cache-config.php
+wp-content/plugins/hello.php
