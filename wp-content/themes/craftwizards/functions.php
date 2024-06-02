@@ -95,4 +95,10 @@
         ));
     }
     add_action( 'customize_register', 'mytheme_customize_register' );
+
+    // template support
+    add_action( 'after_setup_theme', 'mytheme_add_page_templates' );
+    function mytheme_add_page_templates() {
+        add_theme_support( 'page-templates' );
+    }
 ?>

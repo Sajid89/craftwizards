@@ -1,12 +1,92 @@
 /* Generic */
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
 .bg-primary {
     background-color: #03d87d;
+}
+.bg-secondary {
+    background-color: #0376ea;
+}
+.bg-light-secondary {
+    background-color: #0376ea14;
 }
 .text-primary {
     color: #03d87d;
 }
 .border-primary {
     border-color: #03d87d;
+}
+.text-secondary {
+    color: #0376ea;
+}
+.text-dark {
+    color: #0b0f1f;
+}
+
+h1, h2, h3, h4 {
+    color: var(--color-el-color-2);
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: -0.5;
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 1.5rem;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 1.5rem;
+}
+
+.section-heading {
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.section-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+
+}
+
+p {
+    font-size: 16px;
+    color: #0b0f1fb8;
+    margin-bottom: 1.2;
+}
+
+.button-blue {
+    background-color: #0376ea;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.button-blue:hover {
+    background-color: #025cb7;
+}
+
+.button-light-blue {
+    background-color: #0376ea14;
+    color: #0376ea;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.button-light-blue:hover {
+    background-color: #0376ea;
+    color: #ffffff;
 }
 
 :root {
@@ -56,4 +136,14 @@
 
 #menu-main li a:hover {
     border-bottom: 2px solid #03d87d;
+}
+
+/* List Items */
+.list-with-tick li::before {
+    content: "✔ ";
+    color: #03d87d;
+    margin-right: 0.5rem;
+}
+.list-with-tick li {
+    margin-bottom: 1.2rem;
 }
