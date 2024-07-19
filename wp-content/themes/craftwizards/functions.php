@@ -17,6 +17,12 @@
     }
     add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 
+    // enqueue custom scripts
+    function enqueue_custom_scripts() {
+        wp_enqueue_script('custom-js', get_template_directory_uri() . '/js/custom.js', array(), '1.0', true);
+    }
+    add_action('wp_enqueue_scripts', 'enqueue_custom_scripts');
+
     // customizer settings
     function mytheme_customize_register( $wp_customize ) {
         // Add Hero Section
@@ -95,4 +101,10 @@
         ));
     }
     add_action( 'customize_register', 'mytheme_customize_register' );
+
+    // template support
+    add_action( 'after_setup_theme', 'mytheme_add_page_templates' );
+    function mytheme_add_page_templates() {
+        add_theme_support( 'page-templates' );
+    }
 ?>
