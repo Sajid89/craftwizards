@@ -98,67 +98,123 @@
     <div id="tab1" class="tab-content">
         <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8">
             <div class="w-full">
-                <img src="https://digitalwizards.test/wp-content/uploads/2024/07/portfolio_1.jpg" 
-                    alt="Project 1" class="w-full object-cover rounded-md"
-                    style="height: 350px;"
-                >
+                <div class="relative group">
+                    <img src="https://digitalwizards.test/wp-content/uploads/2024/07/portfolio_1.jpg" 
+                        alt="Project 1" class="w-full object-cover rounded-md"
+                        style="height: 350px;"
+                    >
+                    <div class="absolute inset-0 flex items-center justify-center bg-gray-800 bg-opacity-50 
+                        opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <a href="#">
+                            <i class="fas fa-plus bg-secondary text-white text-xl 
+                            rounded-full px-3 py-2.5 font-light"></i>
+                        </a>
+                    </div>
+                </div>
                 <div class="p-4">
                     <h3 class="text-xl font-semibold mb-2">Modern arts museum</h3>
                     <p class="text-secondary">Web Design</p>
                 </div>
             </div>
             <div class="w-full">
-                <img src="https://digitalwizards.test/wp-content/uploads/2024/07/portfolio_2.jpg" 
-                    alt="Project 2" class="w-full h-48 object-cover rounded-md"
-                    style="height: 350px;"
-                >
+                <div class="relative group">
+                    <img src="https://digitalwizards.test/wp-content/uploads/2024/07/portfolio_2.jpg" 
+                        alt="Project 1" class="w-full object-cover rounded-md"
+                        style="height: 350px;"
+                    >
+                    <div class="absolute inset-0 flex items-center justify-center bg-gray-800 bg-opacity-50 
+                        opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <a href="#">
+                            <i class="fas fa-plus bg-secondary text-white text-xl 
+                            rounded-full px-3 py-2.5 font-light"></i>
+                        </a>
+                    </div>
+                </div>
                 <div class="p-4">
                     <h3 class="text-xl font-semibold mb-2">Minimalistic workspace</h3>
                     <p class="text-secondary">Digital Marketing</p>
                 </div>
             </div>
             <div class="w-full">
-                <img src="https://digitalwizards.test/wp-content/uploads/2024/07/portfolio_3.webp" 
-                    alt="Project 2" class="w-full h-48 object-cover rounded-md"
-                    style="height: 350px;"
-                >
+                <div class="relative group">
+                    <img src="https://digitalwizards.test/wp-content/uploads/2024/07/portfolio_3.webp" 
+                        alt="Project 1" class="w-full object-cover rounded-md"
+                        style="height: 350px;"
+                    >
+                    <div class="absolute inset-0 flex items-center justify-center bg-gray-800 bg-opacity-50 
+                        opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <a href="#">
+                            <i class="fas fa-plus bg-secondary text-white text-xl 
+                            rounded-full px-3 py-2.5 font-light"></i>
+                        </a>
+                    </div>
+                </div>
                 <div class="p-4">
                     <h3 class="text-xl font-semibold mb-2">Red space</h3>
                     <p class="text-secondary">Web Design</p>
                 </div>
             </div>
-
+            
             <div class="w-full">
-                <img src="https://digitalwizards.test/wp-content/uploads/2024/07/portfolio_4.webp" 
-                    alt="Project 1" class="w-full h-48 object-cover rounded-md"
-                    style="height: 350px;"
-                >
+                <div class="relative group">
+                    <img src="https://digitalwizards.test/wp-content/uploads/2024/07/portfolio_4.webp" 
+                        alt="Project 1" class="w-full object-cover rounded-md"
+                        style="height: 350px;"
+                    >
+                    <div class="absolute inset-0 flex items-center justify-center bg-gray-800 bg-opacity-50 
+                        opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <a href="#">
+                            <i class="fas fa-plus bg-secondary text-white text-xl 
+                            rounded-full px-3 py-2.5 font-light"></i>
+                        </a>
+                    </div>
+                </div>
                 <div class="p-4">
                     <h3 class="text-xl font-semibold mb-2">Modern arts museum</h3>
                     <p class="text-secondary">Web Design</p>
                 </div>
             </div>
-            <div class="w-full">
-                <img src="https://digitalwizards.test/wp-content/uploads/2024/07/portfolio_5.webp" 
-                    alt="Project 2" class="w-full h-48 object-cover rounded-md"
-                    style="height: 350px;"
-                >
+            <div class="w-full relative group">
+                <div class="relative">
+                    <img src="https://digitalwizards.test/wp-content/uploads/2024/07/portfolio_5.webp" 
+                        alt="Project 1" class="w-full object-cover rounded-md"
+                        style="height: 350px;"
+                    >
+                    <div class="absolute inset-0 flex items-center justify-center bg-gray-800 bg-opacity-50 
+                        opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <a href="#">
+                            <i class="fas fa-plus bg-secondary text-white text-xl 
+                            rounded-full px-3 py-2.5 font-light"></i>
+                        </a>
+                    </div>
+                </div>
                 <div class="p-4">
                     <h3 class="text-xl font-semibold mb-2">Minimalistic workspace</h3>
                     <p class="text-secondary">Digital Marketing</p>
                 </div>
             </div>
-            <div class="w-full">
-                <img src="https://digitalwizards.test/wp-content/uploads/2024/07/portfolio_6.webp" 
-                    alt="Project 2" class="w-full h-48 object-cover rounded-md"
-                    style="height: 350px;"
-                >
+            <div class="w-full relative group">
+                <div class="relative">
+                    <img src="https://digitalwizards.test/wp-content/uploads/2024/07/portfolio_6.webp" 
+                        alt="Project 1" class="w-full object-cover rounded-md"
+                        style="height: 350px;"
+                    >
+                    <div class="absolute inset-0 flex items-center justify-center bg-gray-800 bg-opacity-50 
+                        opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <a href="#">
+                            <i class="fas fa-plus bg-secondary text-white text-xl 
+                            rounded-full px-3 py-2.5 font-light"></i>
+                        </a>
+                    </div>
+                </div>
                 <div class="p-4">
                     <h3 class="text-xl font-semibold mb-2">Red space</h3>
                     <p class="text-secondary">Web Design</p>
                 </div>
             </div>
         </div>
+
+        <button class="button-light-blue mt-8">Load More...</button>
     </div>
     <div id="tab2" class="tab-content hidden">
         <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8">
@@ -223,6 +279,183 @@
                 </div>
             </div>
         </div>
+    </div>
+</section>
+
+<!-- testimonials -->
+<section id="testimonials" class="text-center px-12 py-16 bg-section-light">
+    <h1 class="section-title uppercase text-secondary">Client Feedback</h1>
+    <p class="section-description">We value our clients' feedback and strive to exceed their expectations in every project.</p>
+
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide">
+                <div class="testimonial text-left">
+                    <div class="flex items-left space-x-4">
+                        <img src="https://digitalwizards.test/wp-content/uploads/2024/07/client_1.webp" 
+                             alt="Client 1" class="w-24 h-auto rounded-full">
+                        <div class="flex flex-col justify-center">
+                            <h3 class="text-lg font-semibold uppercase mb-1">Jane Doe</h3>
+                            <p class="text-sm text-gray-500 uppercase mt-0">CEO - Company A</p>
+                        </div>
+                    </div>
+                    <p class="testimonial-message text-left mt-4 w-full md:w-4/5">
+                        The team exceeded our expectations with their exceptional service and 
+                        expertise. They delivered our project on time and with outstanding quality.
+                        Highly recommended!
+                    </p>
+                </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="swiper-slide">
+                <div class="testimonial text-left">
+                    <div class="flex items-left space-x-4">
+                        <img src="https://digitalwizards.test/wp-content/uploads/2024/07/client_2.webp" 
+                             alt="Client 1" class="w-24 h-auto rounded-full">
+                        <div class="flex flex-col justify-center">
+                            <h3 class="text-lg font-semibold uppercase mb-1">John Doe</h3>
+                            <p class="text-sm text-gray-500 uppercase mt-0">CEO - Company B</p>
+                        </div>
+                    </div>
+                    <p class="testimonial-message mt-4">
+                        They provided top-notch solutions for our business needs. Their professionalism 
+                        and attention to detail were impressive.  We're thrilled with the results and look 
+                        forward to working with them again.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Navigation -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+</section>
+
+<!-- team -->
+<section id="team" class="text-center px-12 py-16">
+    <h1 class="section-title uppercase text-secondary">Meet Our Team</h1>
+    <p class="section-description">Get to Know the Brilliant Minds Behind Our Innovations</p>
+
+    <div class="team-wrapper mt-16">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+            <div class="w-full">
+                <img src="https://digitalwizards.test/wp-content/uploads/2024/07/team_1.jpg" 
+                    alt="Team Member 1" class="w-full rounded-md"
+                >
+                <div class="pt-4 text-left">
+                    <h3 class="text-xl font-semibold mb-2">Matt Willis</h3>
+                    <p class="text-gray-400">Co-Founder CEO</p>
+                </div>
+            </div>
+            <div class="w-full">
+                <img src="https://digitalwizards.test/wp-content/uploads/2024/07/team_2.jpg" 
+                    alt="Team Member 2" class="w-full rounded-md"
+                >
+                <div class="pt-4 text-left">
+                    <h3 class="text-xl font-semibold mb-2">Marla Gregg</h3>
+                    <p class="text-gray-400">Co-Founder CTO</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-8 mt-8 md:mt-16">
+            <div class="w-full">
+                <img src="https://digitalwizards.test/wp-content/uploads/2024/07/team_3.jpg" 
+                    alt="Team Member 1" class="w-full rounded-md"
+                >
+                <div class="pt-4 text-left">
+                    <h3 class="text-xl font-semibold mb-2">Jay Smith</h3>
+                    <p class="text-gray-400">Engineer</p>
+                </div>
+            </div>
+            <div class="w-full">
+                <img src="https://digitalwizards.test/wp-content/uploads/2024/07/team_4.jpg" 
+                    alt="Team Member 2" class="w-full rounded-md"
+                >
+                <div class="pt-4 text-left">
+                    <h3 class="text-xl font-semibold mb-2">Olivia Miles</h3>
+                    <p class="text-gray-400">UI/UX</p>
+                </div>
+            </div>
+            <div class="w-full">
+                <img src="https://digitalwizards.test/wp-content/uploads/2024/07/team_5.jpg" 
+                    alt="Team Member 1" class="w-full rounded-md"
+                >
+                <div class="pt-4 text-left">
+                    <h3 class="text-xl font-semibold mb-2">Brandon Perry</h3>
+                    <p class="text-gray-400">DevOps</p>
+                </div>
+            </div>
+            <div class="w-full">
+                <img src="https://digitalwizards.test/wp-content/uploads/2024/07/team_6.jpg" 
+                    alt="Team Member 2" class="w-full rounded-md"
+                >
+                <div class="pt-4 text-left">
+                    <h3 class="text-xl font-semibold mb-2">Vanessa Silk</h3>
+                    <p class="text-gray-400">Content Writer</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- blogs -->
+<section id="blogs" class="text-center px-12 py-16 bg-section-light">
+    <h1 class="section-title uppercase text-secondary">Latest news & articles</h1>
+    <p class="section-description">Tech Innovations Shaping the Future: Insights and Trends</p>
+
+    <div class="blogs-wrapper mt-16">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+            <div class="w-full mb-4">
+                <div class="md:flex text-left md:space-x-8">
+                    <img src="https://digitalwizards.test/wp-content/uploads/2024/07/blog_1.webp" 
+                        alt="blog post" class="w-full md:w-52 md:h-48 topLeft-bottomright-border-radius">
+                    <div class="flex flex-col justify-center mt-4 md:mt-0">
+                        <h3 class="text-lg font-semibold uppercase mb-2">10 ways how to lorem ipsum glavrida dolor amet</h3>
+                        <p class="text-sm text-gray-500 uppercase mt-0">INDUSTRY / JANUARY 2, 2024</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full mb-4">
+                <div class="md:flex text-left md:space-x-8">
+                    <img src="https://digitalwizards.test/wp-content/uploads/2024/07/blog_2.webp" 
+                        alt="blog post" class="w-full md:w-52 md:h-48 topLeft-bottomright-border-radius">
+                    <div class="flex flex-col justify-center mt-4 md:mt-0">
+                        <h3 class="text-lg font-semibold uppercase mb-2">Don’t underestimate the lorem ipsum dolor</h3>
+                        <p class="text-sm text-gray-500 uppercase mt-0">INDUSTRY / JANUARY 2, 2024</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full">
+                <div class="md:flex text-left md:space-x-8">
+                    <img src="https://digitalwizards.test/wp-content/uploads/2024/07/blog_3.webp" 
+                        alt="blog post" class="w-full md:w-52 md:h-48 topLeft-bottomright-border-radius">
+                    <div class="flex flex-col justify-center mt-4 md:mt-0">
+                        <h3 class="text-lg font-semibold uppercase mb-2">Best new-season lorem ipsum dolor amet</h3>
+                        <p class="text-sm text-gray-500 uppercase mt-0">INDUSTRY / JANUARY 2, 2024</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full">
+                <div class="md:flex text-left md:space-x-8">
+                    <img src="https://digitalwizards.test/wp-content/uploads/2024/07/blog_4.webp" 
+                        alt="blog post" class="w-full md:w-52 md:h-48 topLeft-bottomright-border-radius">
+                    <div class="flex flex-col justify-center mt-4 md:mt-0">
+                        <h3 class="text-lg font-semibold uppercase mb-2">What eleifend posuere tincidunt</h3>
+                        <p class="text-sm text-gray-500 uppercase mt-0">INDUSTRY / JANUARY 2, 2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="button-light-blue mt-16">Visit Our Blog</button>
     </div>
 </section>
 

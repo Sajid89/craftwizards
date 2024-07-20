@@ -15,6 +15,9 @@ body {
 .bg-section-light {
     background-color: #EFF4FD;
 }
+.bg-gradient {
+    background-image: linear-gradient(180deg, #0068ff80 0%, #00b4c380 100%);
+}
 
 .text-primary {
     color: #03d87d;
@@ -93,6 +96,10 @@ p {
     color: #ffffff;
 }
 
+.topLeft-bottomright-border-radius {
+    border-radius: 40px 0px 40px 0px;
+}
+
 :root {
     --color-el-color-1: #263d81;
     --color-el-color-2: #000000;
@@ -156,4 +163,40 @@ p {
     font-size: 20px;
     line-height: 1.6;
     margin-bottom: 1.5rem;
+}
+
+/* testimonial slider */
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.testimonial {
+    display: flex;
+    flex-direction: column;
+}
+.client-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.client-info {
+    text-align: left;
+    margin-bottom: 10px;
+}
+.client-name {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.client-position {
+    font-size: 0.9em;
+    color: #777;
+}
+.testimonial-message {
+    font-size: 1em;
+    color: #333;
+}
+.swiper-pagination-bullet {
+    background: #000;
 }
