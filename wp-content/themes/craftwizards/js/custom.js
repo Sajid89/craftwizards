@@ -1,5 +1,19 @@
-// Author: CraftWizards
-// Version: 1.0
+/*
+-----------------
+Author: Craft Wizards
+Version: 1.0
+-----------------
+*/
+
+// Add fixed class to nav after scrolling
+window.addEventListener('scroll', function () {
+    var mainMenu = document.getElementById('main-header');
+    if (window.scrollY > 300) {
+        mainMenu.classList.add('fixed');
+    } else {
+        mainMenu.classList.remove('fixed');
+    }
+});
 
 // Tabs
 function openTab(evt, tabName) {
@@ -35,3 +49,4 @@ document.addEventListener('DOMContentLoaded', function () {
     // Reinitialize Swiper if needed
     swiper.update();
 });
+

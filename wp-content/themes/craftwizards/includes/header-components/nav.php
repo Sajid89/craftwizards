@@ -1,6 +1,7 @@
-<div class="fixed md:flex-wrap top-12 left-0 w-full z-50 bg-white md:relative 
+<div class="md:flex-wrap top-12 left-0 w-full z-50 bg-white md:relative 
     md:bg-transparent px-4 py-2 flex items-center justify-between text-gray-600 
     md:text-white shadow lg:shadow-none"
+    id="main-header"
 >
     <div class="md:hidden block">
         <button id="menu-toggle" data-open="false">
