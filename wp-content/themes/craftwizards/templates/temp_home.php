@@ -37,7 +37,7 @@
     <div class="container mx-auto px-4 mt-16">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
             <div class="w-full">
-                <img src="https://digitalwizards.test/wp-content/uploads/2024/07/services_1.jpg" 
+                <img src="<?php echo esc_url(get_site_url() . '/wp-content/uploads/2024/07/services_1.jpg') ?>" 
                     alt="Web Design & Development" class="w-full h-64 object-cover"
                     style="border-radius: 40px 0px 40px 0px;"
                 >
@@ -52,7 +52,7 @@
                 </div>
             </div>
             <div class="w-full">
-                <img src="https://digitalwizards.test/wp-content/uploads/2024/07/services_2.jpg" 
+                <img src="<?php echo esc_url(get_site_url() . '/wp-content/uploads/2024/07/services_2.jpg') ?>" 
                     alt="Digital Marketing" class="w-full h-64 object-cover"
                     style="border-radius: 40px 0px 40px 0px;"
                 >
@@ -68,7 +68,7 @@
                 </div>
             </div>
             <div class="w-full">
-                <img src="https://digitalwizards.test/wp-content/uploads/2024/07/services_3.jpg" 
+                <img src="<?php echo esc_url(get_site_url() . '/wp-content/uploads/2024/07/services_3.jpg') ?>" 
                     alt="E-Commerce" class="w-full h-64 object-cover"
                     style="border-radius: 40px 0px 40px 0px;"
                 >
@@ -84,7 +84,7 @@
                 </div>
             </div>
             <div class="w-full">
-                <img src="https://digitalwizards.test/wp-content/uploads/2024/07/services_4.jpg" 
+                <img src="<?php echo esc_url(get_site_url() . '/wp-content/uploads/2024/07/services_4.jpg') ?>" 
                     alt="Branding & Creative Services" class="w-full h-64 object-cover"
                     style="border-radius: 40px 0px 40px 0px;"
                 >
@@ -122,7 +122,7 @@
         <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8">
             <div class="w-full">
                 <div class="relative group">
-                    <img src="https://digitalwizards.test/wp-content/uploads/2024/07/portfolio_1.jpg" 
+                    <img src="<?php echo esc_url(get_site_url() . '/wp-content/uploads/2024/07/portfolio_1.jpg') ?>" 
                         alt="Project 1" class="w-full object-cover rounded-md"
                         style="height: 350px;"
                     >
@@ -141,7 +141,7 @@
             </div>
             <div class="w-full">
                 <div class="relative group">
-                    <img src="https://digitalwizards.test/wp-content/uploads/2024/07/portfolio_2.jpg" 
+                    <img src="<?php echo esc_url(get_site_url() . '/wp-content/uploads/2024/07/portfolio_2.jpg') ?>" 
                         alt="Project 1" class="w-full object-cover rounded-md"
                         style="height: 350px;"
                     >
@@ -160,7 +160,7 @@
             </div>
             <div class="w-full">
                 <div class="relative group">
-                    <img src="https://digitalwizards.test/wp-content/uploads/2024/07/portfolio_3.webp" 
+                    <img src="<?php echo esc_url(get_site_url() . '/wp-content/uploads/2024/07/portfolio_3.webp') ?>"
                         alt="Project 1" class="w-full object-cover rounded-md"
                         style="height: 350px;"
                     >
@@ -180,7 +180,7 @@
             
             <div class="w-full">
                 <div class="relative group">
-                    <img src="https://digitalwizards.test/wp-content/uploads/2024/07/portfolio_4.webp" 
+                    <img src="<?php echo esc_url(get_site_url() . '/wp-content/uploads/2024/07/portfolio_4.webp') ?>" 
                         alt="Project 1" class="w-full object-cover rounded-md"
                         style="height: 350px;"
                     >
@@ -199,7 +199,7 @@
             </div>
             <div class="w-full relative group">
                 <div class="relative">
-                    <img src="https://digitalwizards.test/wp-content/uploads/2024/07/portfolio_5.webp" 
+                    <img src="<?php echo esc_url(get_site_url() . '/wp-content/uploads/2024/07/portfolio_5.webp') ?>" 
                         alt="Project 1" class="w-full object-cover rounded-md"
                         style="height: 350px;"
                     >
@@ -218,7 +218,7 @@
             </div>
             <div class="w-full relative group">
                 <div class="relative">
-                    <img src="https://digitalwizards.test/wp-content/uploads/2024/07/portfolio_6.webp" 
+                    <img src="<?php echo esc_url(get_site_url() . '/wp-content/uploads/2024/07/portfolio_6.webp') ?>" 
                         alt="Project 1" class="w-full object-cover rounded-md"
                         style="height: 350px;"
                     >
@@ -242,7 +242,7 @@
     <div id="tab2" class="tab-content hidden">
         <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8">
             <div class="w-full">
-                <img src="https://digitalwizards.test/wp-content/uploads/2024/07/portfolio_4.webp" 
+                <img src="<?php echo esc_url(get_site_url() . '/wp-content/uploads/2024/07/portfolio_4.webp') ?>" 
                     alt="Project 1" class="w-full h-48 object-cover rounded-md"
                     style="height: 350px;"
                 >
@@ -252,7 +252,7 @@
                 </div>
             </div>
             <div class="w-full">
-                <img src="https://digitalwizards.test/wp-content/uploads/2024/07/portfolio_5.webp" 
+                <img src="<?php echo esc_url(get_site_url() . '/wp-content/uploads/2024/07/portfolio_5.webp') ?>"
                     alt="Project 2" class="w-full h-48 object-cover rounded-md"
                     style="height: 350px;"
                 >
@@ -262,7 +262,7 @@
                 </div>
             </div>
             <div class="w-full">
-                <img src="https://digitalwizards.test/wp-content/uploads/2024/07/portfolio_6.webp" 
+                <img src="<?php echo esc_url(get_site_url() . '/wp-content/uploads/2024/07/portfolio_6.webp') ?>" 
                     alt="Project 2" class="w-full h-48 object-cover rounded-md"
                     style="height: 350px;"
                 >
