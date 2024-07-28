@@ -276,7 +276,7 @@
     <div id="tab3" class="tab-content hidden">
         <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8">
             <div class="w-full">
-                <img src="https://digitalwizards.test/wp-content/uploads/2024/07/portfolio_1.jpg" 
+                <img src="<?php echo esc_url(get_site_url() . '/wp-content/uploads/2024/07/portfolio_1.jpg') ?>" 
                     alt="Project 1" class="w-full h-48 object-cover rounded-md"
                     style="height: 350px;"
                 >
@@ -286,7 +286,7 @@
                 </div>
             </div>
             <div class="w-full">
-                <img src="https://digitalwizards.test/wp-content/uploads/2024/07/portfolio_2.jpg" 
+                <img src="<?php echo esc_url(get_site_url() . '/wp-content/uploads/2024/07/portfolio_2.jpg') ?>" 
                     alt="Project 2" class="w-full h-48 object-cover rounded-sm">
                 <div class="p-4">
                     <h3 class="text-xl font-semibold mb-2">Minimalistic workspace</h3>
@@ -294,7 +294,7 @@
                 </div>
             </div>
             <div class="w-full">
-                <img src="https://digitalwizards.test/wp-content/uploads/2024/07/portfolio_3.webp" 
+                <img src="<?php echo esc_url(get_site_url() . '/wp-content/uploads/2024/07/portfolio_3.webp') ?>" 
                     alt="Project 2" class="w-full h-48 object-cover rounded-sm">
                 <div class="p-4">
                     <h3 class="text-xl font-semibold mb-2">Red space</h3>
@@ -317,7 +317,7 @@
             <div class="swiper-slide">
                 <div class="testimonial text-left">
                     <div class="flex items-left space-x-4">
-                        <img src="https://digitalwizards.test/wp-content/uploads/2024/07/client_1.webp" 
+                        <img src="<?php echo esc_url(get_site_url() . '/wp-content/uploads/2024/07/client_1.webp') ?>" 
                              alt="Client 1" class="w-24 h-auto rounded-full">
                         <div class="flex flex-col justify-center">
                             <h3 class="text-lg font-semibold uppercase mb-1">Jane Doe</h3>
@@ -335,7 +335,7 @@
             <div class="swiper-slide">
                 <div class="testimonial text-left">
                     <div class="flex items-left space-x-4">
-                        <img src="https://digitalwizards.test/wp-content/uploads/2024/07/client_2.webp" 
+                        <img src="<?php echo esc_url(get_site_url() . '/wp-content/uploads/2024/07/client_2.webp') ?>" 
                              alt="Client 1" class="w-24 h-auto rounded-full">
                         <div class="flex flex-col justify-center">
                             <h3 class="text-lg font-semibold uppercase mb-1">John Doe</h3>
@@ -366,7 +366,7 @@
         from end-to-end full-cycle development or select specific services as needed.
     </p>
 
-    <img src="https://digitalwizards.test/wp-content/uploads/2024/07/how-we-work.png" 
+    <img src="<?php echo esc_url(get_site_url() . '/wp-content/uploads/2024/07/how-we-work.png') ?>" 
         alt="how we work at tech novas" class="w-full rounded-md px-8"
     >
 </section>
@@ -379,7 +379,7 @@
     <div class="team-wrapper mt-16">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
             <div class="w-full">
-                <img src="https://digitalwizards.test/wp-content/uploads/2024/07/team_1.jpg" 
+                <img src="<?php echo esc_url(get_site_url() . '/wp-content/uploads/2024/07/team_1.jpg') ?>" 
                     alt="Team Member 1" class="w-full rounded-md"
                 >
                 <div class="pt-4 text-left">
@@ -388,7 +388,7 @@
                 </div>
             </div>
             <div class="w-full">
-                <img src="https://digitalwizards.test/wp-content/uploads/2024/07/team_2.jpg" 
+                <img src="<?php echo esc_url(get_site_url() . '/wp-content/uploads/2024/07/team_2.jpg') ?>" 
                     alt="Team Member 2" class="w-full rounded-md"
                 >
                 <div class="pt-4 text-left">
@@ -400,7 +400,7 @@
 
         <div class="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-8 mt-8 md:mt-16">
             <div class="w-full">
-                <img src="https://digitalwizards.test/wp-content/uploads/2024/07/team_3.jpg" 
+                <img src="<?php echo esc_url(get_site_url() . '/wp-content/uploads/2024/07/team_3.jpg') ?>" 
                     alt="Team Member 1" class="w-full rounded-md"
                 >
                 <div class="pt-4 text-left">
@@ -409,7 +409,7 @@
                 </div>
             </div>
             <div class="w-full">
-                <img src="https://digitalwizards.test/wp-content/uploads/2024/07/team_4.jpg" 
+                <img src="<?php echo esc_url(get_site_url() . '/wp-content/uploads/2024/07/team_4.jpg') ?>" 
                     alt="Team Member 2" class="w-full rounded-md"
                 >
                 <div class="pt-4 text-left">
@@ -418,7 +418,7 @@
                 </div>
             </div>
             <div class="w-full">
-                <img src="https://digitalwizards.test/wp-content/uploads/2024/07/team_5.jpg" 
+                <img src="<?php echo esc_url(get_site_url() . '/wp-content/uploads/2024/07/team_5.jpg') ?>" 
                     alt="Team Member 1" class="w-full rounded-md"
                 >
                 <div class="pt-4 text-left">
@@ -427,7 +427,7 @@
                 </div>
             </div>
             <div class="w-full">
-                <img src="https://digitalwizards.test/wp-content/uploads/2024/07/team_6.jpg" 
+                <img src="<?php echo esc_url(get_site_url() . '/wp-content/uploads/2024/07/team_6.jpg') ?>" 
                     alt="Team Member 2" class="w-full rounded-md"
                 >
                 <div class="pt-4 text-left">
@@ -492,7 +492,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
             <div class="w-full mb-4">
                 <div class="md:flex text-left md:space-x-8">
-                    <img src="https://digitalwizards.test/wp-content/uploads/2024/07/blog_1.webp" 
+                    <img src="<?php echo esc_url(get_site_url() . '/wp-content/uploads/2024/07/blog_1.webp') ?>" 
                         alt="blog post" class="w-full md:w-52 md:h-48 topLeft-bottomright-border-radius">
                     <div class="flex flex-col justify-center mt-4 md:mt-0">
                         <h3 class="text-lg font-semibold uppercase mb-2">10 ways how to lorem ipsum glavrida dolor amet</h3>
@@ -503,7 +503,7 @@
 
             <div class="w-full mb-4">
                 <div class="md:flex text-left md:space-x-8">
-                    <img src="https://digitalwizards.test/wp-content/uploads/2024/07/blog_2.webp" 
+                    <img src="<?php echo esc_url(get_site_url() . '/wp-content/uploads/2024/07/blog_2.webp') ?>" 
                         alt="blog post" class="w-full md:w-52 md:h-48 topLeft-bottomright-border-radius">
                     <div class="flex flex-col justify-center mt-4 md:mt-0">
                         <h3 class="text-lg font-semibold uppercase mb-2">Don’t underestimate the lorem ipsum dolor</h3>
@@ -514,7 +514,7 @@
 
             <div class="w-full">
                 <div class="md:flex text-left md:space-x-8">
-                    <img src="https://digitalwizards.test/wp-content/uploads/2024/07/blog_3.webp" 
+                    <img src="<?php echo esc_url(get_site_url() . '/wp-content/uploads/2024/07/blog_3.webp') ?>" 
                         alt="blog post" class="w-full md:w-52 md:h-48 topLeft-bottomright-border-radius">
                     <div class="flex flex-col justify-center mt-4 md:mt-0">
                         <h3 class="text-lg font-semibold uppercase mb-2">Best new-season lorem ipsum dolor amet</h3>
@@ -525,7 +525,7 @@
 
             <div class="w-full">
                 <div class="md:flex text-left md:space-x-8">
-                    <img src="https://digitalwizards.test/wp-content/uploads/2024/07/blog_4.webp" 
+                    <img src="<?php echo esc_url(get_site_url() . '/wp-content/uploads/2024/07/blog_4.webp') ?>" 
                         alt="blog post" class="w-full md:w-52 md:h-48 topLeft-bottomright-border-radius">
                     <div class="flex flex-col justify-center mt-4 md:mt-0">
                         <h3 class="text-lg font-semibold uppercase mb-2">What eleifend posuere tincidunt</h3>
@@ -550,7 +550,7 @@
         <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8">
             <div class="w-full">
                 <div class="relative group">
-                    <img src="https://digitalwizards.test/wp-content/uploads/2024/07/case_study_1.png" 
+                    <img src="<?php echo esc_url(get_site_url() . '/wp-content/uploads/2024/07/case_study_1.png') ?>" 
                         alt="case-study" class="w-full h-64 object-cover"
                         style="border-radius: 40px 0px 40px 0px;"
                     >
@@ -576,7 +576,7 @@
 
             <div class="w-full">
                 <div class="relative group">
-                    <img src="https://digitalwizards.test/wp-content/uploads/2024/07/case_study_2.png" 
+                    <img src="<?php echo esc_url(get_site_url() . '/wp-content/uploads/2024/07/case_study_2.png') ?>" 
                         alt="case-study" class="w-full h-64 object-cover"
                         style="border-radius: 40px 0px 40px 0px;"
                     >
@@ -602,7 +602,7 @@
 
             <div class="w-full">
                 <div class="relative group">
-                    <img src="https://digitalwizards.test/wp-content/uploads/2024/07/case_study_3.png" 
+                    <img src="<?php echo esc_url(get_site_url() . '/wp-content/uploads/2024/07/case_study_3.png') ?>" 
                         alt="case-study" class="w-full h-64 object-cover"
                         style="border-radius: 40px 0px 40px 0px;"
                     >
@@ -628,7 +628,7 @@
 
             <div class="w-full">
                 <div class="relative group">
-                    <img src="https://digitalwizards.test/wp-content/uploads/2024/07/case_study_4.png" 
+                    <img src="<?php echo esc_url(get_site_url() . '/wp-content/uploads/2024/07/case_study_4.png') ?>" 
                         alt="case-study" class="w-full h-64 object-cover"
                         style="border-radius: 40px 0px 40px 0px;"
                     >
@@ -654,7 +654,7 @@
 
             <div class="w-full">
                 <div class="relative group">
-                    <img src="https://digitalwizards.test/wp-content/uploads/2024/07/case_study_5.png" 
+                    <img src="<?php echo esc_url(get_site_url() . '/wp-content/uploads/2024/07/case_study_5.png') ?>" 
                         alt="case-study" class="w-full h-64 object-cover"
                         style="border-radius: 40px 0px 40px 0px;"
                     >
@@ -680,7 +680,7 @@
 
             <div class="w-full">
                 <div class="relative group">
-                    <img src="https://digitalwizards.test/wp-content/uploads/2024/07/case_study_6.png" 
+                    <img src="<?php echo esc_url(get_site_url() . '/wp-content/uploads/2024/07/case_study_6.png') ?>" 
                         alt="case-study" class="w-full h-64 object-cover"
                         style="border-radius: 40px 0px 40px 0px;"
                     >
