@@ -17,8 +17,17 @@
     }
     add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 
-    // enqueue custom scripts
     function enqueue_custom_scripts() {
+        // Enqueue Font Awesome CSS
+        wp_enqueue_style('font-awesome', get_template_directory_uri() . '/node_modules/@fortawesome/fontawesome-free/css/all.min.css');
+        
+        // Enqueue Swiper CSS
+        wp_enqueue_style('swiper-css', 'https://unpkg.com/swiper/swiper-bundle.min.css', array(), null);
+
+        // Enqueue Swiper JS
+        wp_enqueue_script('swiper-js', 'https://unpkg.com/swiper/swiper-bundle.min.js', array(), null, true);
+
+        // Enqueue your custom JavaScript file
         wp_enqueue_script('custom-js', get_template_directory_uri() . '/js/custom.js', array(), '1.0', true);
     }
     add_action('wp_enqueue_scripts', 'enqueue_custom_scripts');

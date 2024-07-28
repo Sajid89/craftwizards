@@ -1,5 +1,19 @@
-// Author: CraftWizards
-// Version: 1.0
+/*
+-----------------
+Author: Craft Wizards
+Version: 1.0
+-----------------
+*/
+
+// Add fixed class to nav after scrolling
+window.addEventListener('scroll', function () {
+    var mainMenu = document.getElementById('main-header');
+    if (window.scrollY > 300) {
+        mainMenu.classList.add('fixed');
+    } else {
+        mainMenu.classList.remove('fixed');
+    }
+});
 
 // Tabs
 function openTab(evt, tabName) {
@@ -16,3 +30,23 @@ function openTab(evt, tabName) {
     evt.currentTarget.className += " bg-blue-500 text-white";
 }
 document.getElementById("tab1").style.display = "block";
+
+// Swiper Slider
+document.addEventListener('DOMContentLoaded', function () {
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 2,
+        spaceBetween: 30,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+
+    // Reinitialize Swiper if needed
+    swiper.update();
+});
+
