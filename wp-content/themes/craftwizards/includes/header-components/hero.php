@@ -6,9 +6,10 @@
             <?php 
                 $hero_logo = get_theme_mod('hero_logo', ''); 
                 if (!empty($hero_logo)): ?>
-                    <img class="w-20 h-20 md:w-24 md:h-24 mb-8" 
+                    <img class="mb-8 logo" 
                         src="<?php echo $hero_logo; ?>" 
                         alt="Company Logo"
+                        style="width: 10rem;"
                     >
             <?php endif; ?>
             <h1 class="section-heading text-4xl md:text-[6vw] font-extrabold uppercase 
