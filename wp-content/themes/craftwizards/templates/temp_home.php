@@ -8,23 +8,33 @@
 
 <!-- who we are -->
 <section id="who-we-are" class="text-center px-12 py-16">
-    <h1 class="section-title uppercase text-secondary">Who We Are</h1>
-    <h2 class="section-heading">Experienced UX and Web designers, crafting <br/> innovative digital solutions for clients worldwide</h2>
+    <h1 class="section-title uppercase text-secondary">
+        <?php the_field('section_title'); ?>
+    </h1>
+    <h2 class="section-heading">
+        <?php the_field('section_heading'); ?>
+    </h2>
     <div class="md:flex mt-12 text-left md:space-x-8">
         <div class="w-full md:w-1/2">
-            <h3>A team of specialists, passionate about new technologies & progress</h3>
-            <p>Sed elementum urna metus, vestibulum in, nulla eu Pellentesque at dui qual. Nullam lorem ipsum lorem iosum – urna metus,
-            Vivamus sagittis tortor et nisi auctor. Lorem nulla eu varius fermentum at volutpat ipsum dolor sit amet dolor urna metus vestibulum in! Ut elit tellus lorem ipsum – ipsum nulla glavida dolor sit amet luctus lorem ipsum elementum urna metus vestibulum dolor.</p>
+            <h3><?php the_field('subheading'); ?></h3>
+            <div><?php the_field('paragraph_text'); ?></div>
         </div>
         <div class="w-full md:w-1/2 mt-4 md:mt-0">
-            <ul class="list-with-tick text-dark mb-8 text-lg leading-6 font-light">
-                <li>100+ completed projects</li>
-                <li>Leading rockstar specialists</li>
-                <li>Returning customers & positive feedbacks</li>
-                <li>A decade of expertise & constant innovations</li>
-            </ul>
-            <button class="button-blue mr-2">Get In Touch</button>
-            <button class="button-light-blue">View Portfolio</button>
+            <div class="list-with-tick text-dark mb-8 text-lg leading-6 font-light">
+                <?php the_field('list_items'); ?>
+            </div>
+            <a 
+                href="#contact-us"
+                class="button-blue mr-2"
+            >
+                <?php the_field('button_1_text'); ?>
+            </a>
+            <a 
+                href="#our-work" 
+                class="button-light-blue"
+            >
+                <?php the_field('button_2_text'); ?>
+            </a>
         </div>
     </div>
 </section>
